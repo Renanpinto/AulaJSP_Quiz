@@ -33,6 +33,7 @@
                 Quiz.soma+=(100.0*((double)acertos/10.0));
                 response.sendRedirect(request.getContextPath()+"/home.jsp");
             }
+            
         %>
         <form>
             <%for(Questao q: Quiz.getQuestoes()){%>
